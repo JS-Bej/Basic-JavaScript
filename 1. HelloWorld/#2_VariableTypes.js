@@ -8,7 +8,7 @@ const greet="Hello world!", salute='Hello, Mr.World!'
 
 // ..Boolean values.
 let isThisAString=false
-const isThisJavaScript=true
+const isThisABool=true
 
 // A variable automatically receives an 'undefined' value if we don't assign them anything:
 let nothing;
