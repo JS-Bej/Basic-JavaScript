@@ -25,12 +25,14 @@ console.log("This line is outside of any condition") // ✅ This will be execute
 
 /*
  Comparing values is commonly used in conditions, here are some comparison operators:
- - ´===´ for Strict equal.
- - ´!==´ for Strict not equal.
- - ´>´   for Greater than.
- - ´>=´  for Greater than or equal.
- - ´<´   for Less than.
- - ´<=´  for Less than or equal.
+ - `==`  for Equal to.
+ - `===` for Strict equal to.
+ - `!=`  for Not equal to.
+ - `!==` for Strict not equal to.
+ - `>`   for Greater than.
+ - `>=`  for Greater than or equal to.
+ - `<`   for Less than.
+ - `<=`  for Less than or equal to.
  */
 
 
@@ -42,7 +44,7 @@ if(4<3){
     console.log("4 is greater or equal to 3") // ✅ This will be executed.
 }else if(4===4){
     console.log("4 is equal to 4") // ❌ This will NOT be executed.
-}                      // (This happens because the control flow has already found a condition that is true, so it will skip the any other condition)
+}                      // (This happens because the control flow has already met a true condition, so it will skip the any other condition)
 
 //-----------------------------------------------------
 
