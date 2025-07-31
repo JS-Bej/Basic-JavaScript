@@ -7,8 +7,11 @@
  It's useful for longer explanations.
 */
 
-// To print something in the console in JavaScript, you can use the console.log() function.
+// To print something in a new line in the console, you can use the console.log() function.
 console.log("Hello, World!"); // This will print "Hello, World!" to the console.
+console.log("Hey, I'm two!"); //prints this in a new line
+// To skip a line before a new output, it's common to use `\n`
+console.log("And I'm\nT\nh\nr\ne\ne\n!\n")
 
 // Variables in JavaScript are not typed, meaning you don't have to declare their type explicitly.
 // To declare variables in JavaScript, it's used the var, let, or const keywords.

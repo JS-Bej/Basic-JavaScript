@@ -8,20 +8,26 @@
 */
 
 if (4>3){
-    console.log("4 is greater than 3") // ✅ This will be executed.
+    console.log("4 is greater than 3.") // ✅ This will be executed.
  }
 
-if (4<3){console.log("4 is less than 3")} // ❌ This will NOT be executed because of the condition.
+if (4<3){console.log("4 is less than 3.")} // ❌ This will NOT be executed because of the condition.
 
 
  // If we want to execute a block of code when the condition is false, we use the ´else´ keyword:
 
 if(4<3){
-    console.log("4 is less than 3") // ❌ This will NOT be executed.
+    console.log("4 is less than 3.") // ❌ This will NOT be executed.
 } else{
-    console.log("4 is greater or equal to 3") // ✅ This will be executed.
+    console.log("4 is greater or equal to 3.") // ✅ This will be executed.
 }
-console.log("This line is outside of any condition") // ✅ This will be executed.
+console.log("This line is outside of any condition.\n") // ✅ This will be executed.
+
+// Another way to write this, is with the ternary operator (?).
+// This is its sintax: condition ? ifTrue : ifFalse;
+
+4<3 ? console.log("4 is less than 3.") : console.log("4 is greater or equal to 3.");
+console.log("This line is outside of any condition.\n")
 
 /*
  Comparing values is commonly used in conditions, here are some comparison operators:
