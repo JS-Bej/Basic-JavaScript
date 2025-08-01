@@ -54,4 +54,14 @@ if(player==0){
 }
 console.log("Player picked:   "+pchoice)
 console.log("Computer picked: "+cchoice)
-console.log("\n"+result)
+console.log("\n"+result+"\n")
+
+// Here's an example using the logical operators in a real scenario:
+let x = 5, y = 20, z = 15;
+if (x < y && y < z) {
+  console.log("y is between x and z");
+} else if ((x > y && y < z) || (y > z && x < z)) {
+  console.log("y is not between x and z");
+} else {
+  console.log("y is equal to x or z");
+}
