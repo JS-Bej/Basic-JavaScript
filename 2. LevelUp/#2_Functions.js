@@ -44,3 +44,23 @@ function eat(name){
 }
 // console.log(eatingMessage); will give you a Reference error because of the function scope.
 console.log(eat("Jhon")) // Output: Jhon is eating an apple!
+
+/*
+ There's another way to create functions, but these ones name are "Arrow functions".
+ Get used to them, you'll see and use a lot these functions:
+
+ const message = (name) => `Hello, ${name}!`
+
+ First, we see "const message" this is declaring our function's name.
+ Then, we see "= (name)" this is just how we declare the parameters.
+ Finally, we see " => `Hello, ${name}!`" and this is just the value we want to be returned.
+ so:
+
+ const functionName=(parameters)=>value to be returned
+
+ We call the arrow functions like a normal one.
+ functionName(arguments)
+*/
+const arrow=(name)=>`Hello, ${name}!`
+console.log(arrow('Juan')) // Output: Hello, Juan!
+
