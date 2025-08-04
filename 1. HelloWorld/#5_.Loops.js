@@ -1,6 +1,6 @@
 /*
  A loop is basically a block of code that will be repeated over and over again until certain condition becomes false.
- This is the sintax for a `while` loop:
+ This is the syntax for a `while` loop:
 
  while (condition){
    code to be repeated.
@@ -15,7 +15,7 @@ console.log("Yeah! "+number+" is the number I was thinking") // This will be exe
 
 /*
  Another kind of loop is the `for` loop. Unlike `while`, with `for` we can set an ammount of times to be repeated.
- Here's the sintax:
+ Here's the syntax:
 
  for(initial value; condition; intial value increment){
    code to be repeated.

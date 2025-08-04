@@ -1,6 +1,6 @@
 /*
  An array is basically a variable that can hold multiple values.
- its sintax is pretty like we assign values to variables:
+ its syntax is pretty like we assign values to variables:
 
  let arrayName = [value1, value2, value3, ...]
 */
@@ -34,7 +34,7 @@ for(let i=0;i<number.length;i++){
 let number=[1,2,3]
 number[3]=4;
 console.log(number) // Output: [ 1, 2, 3, 4 ]
-// However this is not the best way to add values, we can use the built-in method `push()`:
+// However, this is not the best way to add values, we can use the built-in method `push()` instead:
 number.push(5,6)
 console.log(number) // Output: [ 1, 2, 3, 4, 5, 6 ]
 // Or we can add it a the start of the array with `unshift()`:
