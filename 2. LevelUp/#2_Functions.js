@@ -63,4 +63,3 @@ console.log(eat("Jhon")) // Output: Jhon is eating an apple!
 */
 const arrow=(name)=>`Hello, ${name}!`
 console.log(arrow('Juan')) // Output: Hello, Juan!
-
