@@ -58,6 +58,13 @@ console.log(eat("Jhon")) // Output: Jhon is eating an apple!
 
  const functionName=(parameters)=>value to be returned
 
+ An anonymous function is a function that has no name.
+ anonymous functions are tipically used when there is no need to call them. This is an anonymous arrow function:
+
+ () => {
+         code to be executed
+       }
+
  We call the arrow functions like a normal one.
  functionName(arguments)
 */

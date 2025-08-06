@@ -1,0 +1,32 @@
+
+#box{
+    background-color: red;
+    height: 100px;
+    width: 75%;
+    border: 10px solid grey;
+}
+.buttons{
+    height: 50px;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-palette: black;
+    text-align: center;
+    align-content: center;
+}
+#button1{
+    background-color: #7fffd4;
+}
+#button2{
+    background-color: #00ffff;
+}
+#animal-image{
+    width: 250px;
+    height: 200px;
+}
+#raccoon{
+    background-color: darkgreen;
+}
+#cat{
+    background-color: gray;
+}
