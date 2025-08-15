@@ -22,8 +22,9 @@ mix[2]="Pear"
 console.log(mix[0]+" - "+mix[2]) // Output: Apple - Pear
 
 // We can know how many values are stored in an array by typing '.length' after the name of that array.
+let number=[1,2,3]
 let amount=number.length;
-console.log(amount); // Output: 5
+console.log(amount); // Output: 3
 
 // Another way to print an array by its indexes is using a `for` loop:
 for(let i=0;i<number.length;i++){
@@ -31,7 +32,6 @@ for(let i=0;i<number.length;i++){
 }
 
 // Finally, we can also add a value to an array this way:
-let number=[1,2,3]
 number[3]=4;
 console.log(number) // Output: [ 1, 2, 3, 4 ]
 // However, this is not the best way to add values, we can use the built-in method `push()` instead:
