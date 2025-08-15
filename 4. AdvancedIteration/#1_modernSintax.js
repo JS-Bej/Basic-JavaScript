@@ -77,9 +77,10 @@ console.log(obj2); // Output: { a: 1, b: 2, c: 3 }
 /*
  On the other hand, the same three dots can be used to "pack" elements into an array or properties into an object.
  This can be really useful when you want to create a function that could require a variable number of arguments.
- this operator is called 'rest operator' regardless of being the same as spread operator. Its sintax:
+ In this case, this operator is called 'rest operator' regardless of being the same as the spread operator, it depends on its function.
+ Its sintax:
 
- ...restParameter
+ ...restParameterObjectOrArrayName
 */
 function addNumbers(...nums) {
     let sum=0;
