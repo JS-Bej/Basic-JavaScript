@@ -26,4 +26,21 @@ function fetchCat(){
     .catch((error)=>console.log("An error happened along the way."))  // If there was an error with something, `.catch()` will tell us.
 }
 
+/* 
+ Here's another way to do this:
+
+async function fetchCat(){
+  const response = await fetch("https://api.thecatapi.com/v1/images/search");
+  if (response.ok === false){
+  throw new Error("An error happened along the way.");  Will throw an error and stops the function.
+  }
+  const data = await response.json();
+  catImage.src = data[0].url;
+  catImage.classList.remove("hidden");
+  imageInfo.innerText = `[\n{\n"id": "${data[0].id}",\n"width": ${data[0].width},\n"height": ${data[0].height}\n}\n]`;
+  imageInfo.classList.remove("hidden");
+  textContainer.innerText = `"url": "${data[0].url}"
+} 
+*/
+
 btn.addEventListener("click",fetchCat);
